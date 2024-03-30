@@ -1,0 +1,12 @@
+{
+  "name": "pdf2text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx esbuild index.js --bundle --minify --platform=node --outfile=pdf2text.bundle.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}
