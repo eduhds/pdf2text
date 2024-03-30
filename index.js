@@ -1,7 +1,7 @@
 #!/usr/bin/env -S node --no-warnings
 
 const fs = require('fs');
-const pdf = require('pdf-parse');
+const pdf = require('pdf-parse/lib/pdf-parse');
 
 const args = process.argv.slice(2);
 
